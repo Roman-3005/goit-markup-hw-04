@@ -3,7 +3,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/* reset style start */
+/* #region Reset style */
 h1,
 h2,
 h3,
@@ -25,8 +25,15 @@ ol {
 a {
   text-decoration: none;
 }
-/* reset style end */
-/* common start*/
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* #endregion Reset style */
+
+/* #region Common */
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -37,13 +44,9 @@ a {
   padding: 120px 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-/* common end*/
-/* header start */
+/* #endregion Common */
+
+/* #region Header */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -120,9 +123,9 @@ img {
   color: #404bbf;
 }
 /* address end */
-/* header end */
+/* #endregion Header */
 
-/*section-solution start*/
+/* #region Section-solution */
 .section-solution {
   display: flex;
   background-color: #2e2f42;
@@ -139,8 +142,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto 48px;
   max-width: 496px;
 }
 
@@ -160,18 +162,16 @@ img {
   white-space: nowrap;
   display: block;
   min-width: 169px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 48px;
+  margin: 0 auto;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
 }
-/*section-solution*/
+/* #endregion Section-solution */
 
-/* advantag-section start */
+/* #region Advantag-section */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -209,9 +209,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* advantag-section end */
+/* #endregion Advantag-section */
 
-/* team-section start */
+/* #region Team-section */
 .team-section {
   background-color: #f4f4fd;
 }
@@ -266,9 +266,9 @@ img {
   justify-content: center;
   flex-direction: column;
 }
-/* team-section end */
+/* #endregion Team-section */
 
-/* portfolio-section start */
+/* #region Portfolio-section */
 .portfolio-heading {
   font-weight: 700;
   font-size: 36px;
@@ -319,9 +319,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* portfolio-section end */
+/* #endregion Portfolio-section */
 
-/* footer start */
+/* #region Footer */
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -342,4 +342,4 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-/* footer end */
+/* #endregion Footer */
