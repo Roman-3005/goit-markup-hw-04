@@ -95,6 +95,19 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+/* .nav-link:active::after {
+  display: block;
+  content: "";
+  text-decoration: underline;
+  width: 100%;
+  bottom: -1px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  transition: 0.4s;
+  background-color: #404bbf;
+} */
 /* nav end */
 /* address start */
 .contacts {
@@ -143,7 +156,7 @@ img {
     url('../images/section-solution-background.jpg');
   max-width: 1440px;
   margin: 0 auto;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
