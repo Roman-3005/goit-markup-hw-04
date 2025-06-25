@@ -260,6 +260,7 @@ img {
   background-color: #ffffff;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(255, 0, 0, 0.7) */
 }
 
 .team-item-text {
@@ -291,7 +292,23 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 8px;
 }
+
+.team-item-list {
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  height: auto;
+}
+
+.team-item-icon {
+  display: block;
+padding-top: 0;
+}
+
+
+
 /* #endregion Team-section */
 
 /* #region Portfolio-section */
