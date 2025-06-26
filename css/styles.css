@@ -384,6 +384,14 @@ margin:  0;
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
+  flex-wrap: wrap;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -400,10 +408,20 @@ margin:  0;
   max-width: 264px;
 }
 
-.footer-social {
+.footer-right {
   max-width: 208px;
+}
+
+.social-list {
+  display: flex;
   gap: 16px;
-  margin-left: 120px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-list svg {
+  fill: #ffffff;
 }
 
 .footer-text-social {
