@@ -106,11 +106,10 @@ img {
 
 .nav-link.current::after {
   content: '';
-
   position: absolute;
   left: 0;
   bottom: -1px;
-
+  display: block;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -170,7 +169,7 @@ img {
     url('../images/section-solution-background.jpg');
   max-width: 1440px;
   margin: 0 auto;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
@@ -338,14 +337,12 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  fill: #f4f4fd;
 }
 
-.team-item-icon svg {
-  width: 16px;
-  height: 16px;
-  fill: #fff;
+.team-item-icon:hover {
+background-color: #404bbf;
 }
-
 /* #endregion Team-section */
 
 /* #region Portfolio-section */
@@ -445,16 +442,21 @@ img {
   list-style: none;
 }
 
-.social-list svg {
-  fill: #ffffff;
-}
-
 .footer-text-social {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  padding-left: 0;
   margin-bottom: 16px;
 }
+
+.footer-item-list {
+  gap: 16px;
+}
+
+.footer-item-icon:hover {
+  background-color:#31d0aa;;
+} 
 /* #endregion Footer */
